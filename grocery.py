@@ -36,7 +36,7 @@ class Solution:
         # TODO: Write code below to return a list with the solution to the prompt
         for i in str1:
             if i not in str2:
-                str2.append(i)
+                str2 = str2 + str1(i)
         return str2
         pass
 
